@@ -58,7 +58,34 @@
     "copy-from": "software",
     "type": "GENERIC",
     "name": { "str_sp": "lab data" },
-    "description": "Research archives from a government laboratory.",
+    "description": "Heavily encrypted research data about recent experiments from a government laboratory.",
+    "price": 200,
+    "price_postapoc": 0
+  },
+  {
+    "id": "software_encryption_codes",
+    "copy-from": "software",
+    "type": "GENERIC",
+    "name": { "str_sp": "passwords" },
+    "description": "Couple of files filled to the brim with random character that probably still have more meaning that your consciousness in this chaos.",
+    "price": 200,
+    "price_postapoc": 0
+  },
+  {
+    "id": "software_lab_archives_data",
+    "copy-from": "software",
+    "type": "GENERIC",
+    "name": { "str_sp": "laboraty archives" },
+    "description": "Heavily comppressed data about experiments and current research.If not for a place where you found this and large amount of spreadsheets and graphs you would consider it an elaborate fanfic scp writing.You download first succsesfull experiments, key milestones that reasearches marked as interesting or important and all experiments at the moment of cataclysm and as far back as space on usb drive allowed.",
+    "price": 200,
+    "price_postapoc": 0
+  },
+  {
+    "id": "software_tunnel_data",
+    "copy-from": "software",
+    "type": "GENERIC",
+    "name": { "str_sp": "tunnel data" },
+    "description": "As much as you wish this was a map of all undeground tunnels that connect secret bunkers,labs and other importan goverment facilities it is mostly plans of ventillations shafts for regular metro trains,maintence periods,and list incidents that were recorded in tunnels.",
     "price": 200,
     "price_postapoc": 0
   },
