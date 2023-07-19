@@ -13,7 +13,7 @@
       {
         "text": "Download Train Data",
         "topic": "COMP_TRAIN_DATA_DOWNLOAD",
-        "condition": { "u_has_item": "data_card" }
+        "condition": { "u_has_item": "usb_drive" }
       },
       { "text": "Power off.", "topic": "TALK_DONE" }
     ]
