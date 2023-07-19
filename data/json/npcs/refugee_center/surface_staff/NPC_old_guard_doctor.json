@@ -118,6 +118,7 @@
     "value": 50000,
     "item": "software_lab_data",
     "start": "create_lab_console",
+      "effect": [ { "u_spawn_item": "usb_drive" } ],
     "origins": [ "ORIGIN_SECONDARY" ],
     "followup": "MISSION_SCIENCE_REP_3",
     "dialogue": {
@@ -141,6 +142,7 @@
     "value": 50000,
     "item": "software_lab_data",
     "start": "create_hidden_lab_console",
+      "effect": [ { "u_spawn_item": "usb_drive" } ],
     "origins": [ "ORIGIN_SECONDARY" ],
     "followup": "MISSION_SCIENCE_REP_4",
     "dialogue": {
@@ -164,6 +166,7 @@
     "value": 50000,
     "item": "software_lab_data",
     "start": "create_ice_lab_console",
+      "effect": [ { "u_spawn_item": "usb_drive" } ],
     "origins": [ "ORIGIN_SECONDARY" ],
     "followup": "MISSION_SCIENCE_REP_5",
     "dialogue": {
@@ -195,7 +198,7 @@
         "search_range": 200,
         "z": -4
       },
-      "effect": [ { "u_spawn_item": "data_card" } ]
+      "effect": [ { "u_spawn_item": "usb_drive" } ]
     },
     "origins": [ "ORIGIN_SECONDARY" ],
     "dialogue": {
