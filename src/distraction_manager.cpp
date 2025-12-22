@@ -42,6 +42,7 @@ static const std::vector<configurable_distraction> &get_configurable_distraction
         {&uistate.distraction_mutation,        translate_marker( "Mutation" ),                     translate_marker( "This distraction will interrupt your activity when you gain or lose a mutation." )},
         {&uistate.distraction_oxygen,          translate_marker( "Asphyxiation" ),                 translate_marker( "This distraction will interrupt your activity when you can't breathe." )},
         {&uistate.distraction_withdrawal,      translate_marker( "Withdrawal" ),                  translate_marker( "This distraction will interrupt your activity when you have withdrawals." )},
+        {&uistate.distraction_melee_stamina,      translate_marker( "Low Stamina" ),                  translate_marker("This distraction will interrupt your activity when you have less than 25% stamina while in melee combat.")},
         {&uistate.distraction_all,             translate_marker( "Toggle all" ),                   translate_marker( "Toggle all distractions" ), true }
     };
     return configurable_distractions;
@@ -178,6 +179,7 @@ void distraction_manager_gui::show()
                 uistate.distraction_mutation = toggle_state;
                 uistate.distraction_oxygen = toggle_state;
                 uistate.distraction_withdrawal = toggle_state;
+                uistate.distraction_melee_stamina = toggle_state;
             }
         }
     }
